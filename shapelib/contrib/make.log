@@ -1,0 +1,12 @@
+cc -g -I.. -DPROJ4 -D_LITTLE_ENDIAN -DDEBUG -DDEBUG2  shpdxf.c ../shpopen.o ../dbfopen.o   -o shpdxf
+shpdxf.c: In function 'main':
+shpdxf.c:218:9: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shpdxf.c:221:5: warning: incompatible implicit declaration of built-in function 'strcpy' [enabled by default]
+shpdxf.c:222:5: warning: incompatible implicit declaration of built-in function 'strncpy' [enabled by default]
+shpdxf.c:222:40: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+shpdxf.c:223:5: warning: incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+cc -g -I.. -DPROJ4 -D_LITTLE_ENDIAN -DDEBUG -DDEBUG2  -c shpgeo.c
+In file included from shpgeo.c:64:0:
+shpgeo.h:70:22: fatal error: proj_api.h: No such file or directory
+compilation terminated.
+make: *** [shpgeo.o] Error 1

@@ -1,0 +1,22 @@
+cc -g -c shpopen.c
+cc -g -c dbfopen.c
+cc -g shputils.c shpopen.o dbfopen.o  -o shputils
+shputils.c: In function 'main':
+shputils.c:230:25: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shputils.c:277:83: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shputils.c:305:2: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shputils.c:322:2: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shputils.c: In function 'openfiles':
+shputils.c:469:2: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shputils.c:485:17: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shputils.c:498:2: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shputils.c:517:17: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shputils.c:526:13: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+shputils.c: In function 'mergefields':
+shputils.c:561:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+shputils.c: In function 'showitems':
+shputils.c:688:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat]
+shputils.c:688:3: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long int' [-Wformat]
+shputils.c:689:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat]
+shputils.c: In function 'error':
+shputils.c:1049:2: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]

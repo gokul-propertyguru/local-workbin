@@ -1,0 +1,72 @@
+/bin/sh ./libtool --mode=compile gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1  -I. -I. -I/usr/local/include    -g -O2 -c shpopen.c
+mkdir .libs
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c  -fPIC -DPIC shpopen.c -o .libs/shpopen.lo
+shpopen.c: In function 'SHPReadObject':
+shpopen.c:1300:10: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+shpopen.c: In function 'SHPOpen':
+shpopen.c:437:10: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+shpopen.c:447:10: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+shpopen.c:526:10: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c shpopen.c -o shpopen.o >/dev/null 2>&1
+mv -f .libs/shpopen.lo shpopen.lo
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c  -fPIC -DPIC shpopen.c -o .libs/shpopen.lo
+shpopen.c: In function 'SHPReadObject':
+shpopen.c:1300:10: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+shpopen.c: In function 'SHPOpen':
+shpopen.c:437:10: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+shpopen.c:447:10: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+shpopen.c:526:10: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c shpopen.c -o shpopen.o >/dev/null 2>&1
+mv -f .libs/shpopen.lo shpopen.lo
+/bin/sh ./libtool --mode=compile gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1  -I. -I. -I/usr/local/include    -g -O2 -c shptree.c
+rm -f .libs/shptree.lo
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c  -fPIC -DPIC shptree.c -o .libs/shptree.lo
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c shptree.c -o shptree.o >/dev/null 2>&1
+mv -f .libs/shptree.lo shptree.lo
+rm -f .libs/shptree.lo
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c  -fPIC -DPIC shptree.c -o .libs/shptree.lo
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c shptree.c -o shptree.o >/dev/null 2>&1
+mv -f .libs/shptree.lo shptree.lo
+/bin/sh ./libtool --mode=compile gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1  -I. -I. -I/usr/local/include    -g -O2 -c dbfopen.c
+rm -f .libs/dbfopen.lo
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c  -fPIC -DPIC dbfopen.c -o .libs/dbfopen.lo
+dbfopen.c: In function 'DBFReadTuple':
+dbfopen.c:1371:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+dbfopen.c: In function 'DBFWriteTuple':
+dbfopen.c:1327:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+dbfopen.c: In function 'DBFWriteAttribute':
+dbfopen.c:1012:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+dbfopen.c: In function 'DBFWriteAttributeDirectly':
+dbfopen.c:1181:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+dbfopen.c: In function 'DBFClose':
+dbfopen.c:461:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c dbfopen.c -o dbfopen.o >/dev/null 2>&1
+mv -f .libs/dbfopen.lo dbfopen.lo
+rm -f .libs/dbfopen.lo
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c  -fPIC -DPIC dbfopen.c -o .libs/dbfopen.lo
+dbfopen.c: In function 'DBFReadTuple':
+dbfopen.c:1371:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+dbfopen.c: In function 'DBFWriteTuple':
+dbfopen.c:1327:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+dbfopen.c: In function 'DBFWriteAttribute':
+dbfopen.c:1012:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+dbfopen.c: In function 'DBFWriteAttributeDirectly':
+dbfopen.c:1181:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+dbfopen.c: In function 'DBFClose':
+dbfopen.c:461:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+gcc -DPACKAGE=\"libshp\" -DVERSION=\"1.2.9\" -DSTDC_HEADERS=1 -I. -I. -I/usr/local/include -g -O2 -c dbfopen.c -o dbfopen.o >/dev/null 2>&1
+mv -f .libs/dbfopen.lo dbfopen.lo
+/bin/sh ./libtool --mode=link gcc  -g -O2  -o libshp.la -rpath /usr/local/lib -version-info 1:1:0 shpopen.lo shptree.lo dbfopen.lo  
+rm -fr .libs/libshp.la .libs/libshp.* .libs/libshp.*
+
+*** Warning: This library needs some functionality provided by -lc.
+*** I have the capability to make that library automatically link in when
+*** you link to this library.  But I can only do this if you have a
+*** shared version of the library, which you do not appear to have.
+*** The inter-library dependencies that have been dropped here will be
+*** automatically added whenever a program is linked with this library
+*** or is declared to -dlopen it.
+gcc -shared  shpopen.lo shptree.lo dbfopen.lo   -Wl,-soname -Wl,libshp.so.1 -o .libs/libshp.so.1.0.1
+(cd .libs && rm -f libshp.so.1 && ln -s libshp.so.1.0.1 libshp.so.1)
+ln: failed to create symbolic link `libshp.so.1': Protocol error
+make: *** [lib] Error 1
